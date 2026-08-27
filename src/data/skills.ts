@@ -1,16 +1,20 @@
-import type { SkillGroup } from '../types'
+import type { SkillGroup } from "../types";
 
 export const skills: SkillGroup[] = [
   {
-    category: 'Frontend',
-    items: ['React', 'TypeScript', 'Vite', 'HTML', 'CSS', 'Responsive Design'],
+    category: "Languages",
+    items: ["JavaScript", "TypeScript", "HTML", "CSS"],
   },
   {
-    category: 'Tools',
-    items: ['Git', 'GitHub', 'Figma', 'VS Code', 'npm', 'ESLint'],
+    category: "Frontend",
+    items: ["React", "Vite", "Responsive Design"],
   },
   {
-    category: 'Workflow',
-    items: ['UI Design', 'Component Architecture', 'Testing', 'Accessibility'],
+    category: "Backend",
+    items: ["Node.js", "Express", "MongoDB", "REST APIs"],
   },
-]
+  {
+    category: "Tools",
+    items: ["Git", "Docker", "GitHub Actions", "Figma", "AWS", "Vercel"],
+  },
+];
