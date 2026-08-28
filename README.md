@@ -8,7 +8,7 @@ https://portfolio-git-sprint-12-lf-808mlb.vercel.app/
 
 # Tech Stack
 
-React 19 + TypseScript
+React 19 + TypeScript
 Vite
 CSS
 ESLint + Prettier
