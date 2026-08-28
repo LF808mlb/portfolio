@@ -15,7 +15,7 @@
 .hero__eyebrow {
   margin: 0;
   color: var(--color-text-secondary);
-  font-size: 0.875rem;
+  font-size: 16px;
   font-weight: 400;
   letter-spacing: 0.12em;
   text-transform: uppercase;
@@ -80,7 +80,7 @@
 }
 
 .hero__button--secondary {
-  background: #ffffff;
+  background: var(--color-bg-primary);
   color: var(--color-text-primary);
   border: 1px solid #3f96f3;
 }

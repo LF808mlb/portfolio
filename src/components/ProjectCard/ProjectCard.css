@@ -3,7 +3,7 @@
   flex-direction: column;
   width: 405.3333435058594px;
   height: 592px;
-  background: #fff;
+  background: var(--color-bg-primary);
   border: 1px solid rgba(18, 18, 18, 0.08);
   border-radius: 8px;
   overflow: hidden;
@@ -78,7 +78,7 @@
 }
 
 .project-card__link {
-  color: #121212;
+  color: var(--color-text-primary);
   border: 1px solid #eef4ff;
   width: 88px;
   height: 44px;
