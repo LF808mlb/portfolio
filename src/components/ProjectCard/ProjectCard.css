@@ -8,6 +8,7 @@
   border-radius: 8px;
   overflow: hidden;
   align-items: stretch;
+  cursor: pointer;
 }
 
 .project-card__image {
@@ -48,7 +49,12 @@
   margin: 0 0 0.75rem;
   color: var(--color-text-primary);
   text-align: left;
-  font-size: 1.1rem;
+  font-size: 24px;
+  font-weight: 400;
+}
+
+.project-card:hover .project-card__title {
+  font-weight: 500;
 }
 
 .project-card__description {
@@ -99,5 +105,6 @@
 
 .project-card__link:hover,
 .project-card__link:focus-visible {
-  text-decoration: underline;
+  background-color: var(--color-bg-secondary);
+  text-decoration: none;
 }

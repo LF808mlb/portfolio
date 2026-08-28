@@ -75,7 +75,7 @@
 
 .hero__button--primary:hover,
 .hero__button--primary:focus-visible {
-  background: var(--color-hover-secondary);
+  background: var(--color-bg-secondary);
   color: var(--color-text-primary);
 }
 
@@ -87,5 +87,6 @@
 
 .hero__button--secondary:hover,
 .hero__button--secondary:focus-visible {
-  background: var(--color-hover-secondary);
+  background: var(--color-bg-secondary);
+  border-color: var(--color-bg-secondary);
 }

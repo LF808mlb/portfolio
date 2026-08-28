@@ -48,6 +48,12 @@
   justify-content: center;
   border: 1px solid #e6e6e6;
   border-radius: 40px;
+  transition: background-color 0.2s ease;
+}
+
+.contact__social-list a:hover,
+.contact__social-list a:focus-visible {
+  background-color: var(--color-bg-secondary);
 }
 
 .contact__social-list img {
@@ -89,4 +95,9 @@
 
 .contact__list-item--resume a {
   color: var(--color-blue);
+}
+
+.contact__list-item--resume a:hover,
+.contact__list-item--resume a:focus-visible {
+  text-decoration: underline;
 }
