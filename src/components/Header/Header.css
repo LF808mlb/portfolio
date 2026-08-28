@@ -36,6 +36,21 @@
   cursor: pointer;
 }
 
+.header__menu-toggle:hover,
+.header__menu-toggle:focus-visible {
+  color: var(--color-blue);
+}
+
+.header__menu-toggle[aria-expanded="true"] {
+  border: 1px solid #808080;
+  border-radius: 50%;
+}
+
+.header__menu-toggle[aria-expanded="true"]:hover,
+.header__menu-toggle[aria-expanded="true"]:focus-visible {
+  border-color: #121212;
+}
+
 .header__nav {
   display: flex;
   align-items: center;
@@ -85,5 +100,11 @@
 
   .header__nav-contact {
     width: 100%;
+  }
+
+  .header__nav--open .header__link:hover,
+  .header__nav--open .header__link:focus-visible {
+    color: var(--color-blue);
+    font-weight: 400;
   }
 }
