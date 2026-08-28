@@ -86,16 +86,32 @@ export function Header() {
         className={`header__nav${isOpen ? " header__nav--open" : ""}`}
         aria-label="Main navigation"
       >
-        <a className="header__link" href="#home" onClick={() => setIsOpen(false)}>
+        <a
+          className="header__link"
+          href="#home"
+          onClick={() => setIsOpen(false)}
+        >
           Home
         </a>
-        <a className="header__link" href="#skills" onClick={() => setIsOpen(false)}>
+        <a
+          className="header__link"
+          href="#skills"
+          onClick={() => setIsOpen(false)}
+        >
           Skills
         </a>
-        <a className="header__link" href="#projects" onClick={() => setIsOpen(false)}>
+        <a
+          className="header__link"
+          href="#projects"
+          onClick={() => setIsOpen(false)}
+        >
           Projects
         </a>
-        <a className="header__link" href="#contact" onClick={() => setIsOpen(false)}>
+        <a
+          className="header__link"
+          href="#contact"
+          onClick={() => setIsOpen(false)}
+        >
           Contact
         </a>
 

@@ -42,7 +42,13 @@
 
 .skills__group {
   width: 100%;
-  height: 149px;
+  min-height: 149px;
+}
+
+@media (max-width: 640px) {
+  .skills__groups {
+    grid-template-columns: minmax(0, 1fr);
+  }
 }
 
 .skills__items {
