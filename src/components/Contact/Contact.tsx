@@ -24,13 +24,13 @@ export default function Contact() {
             <span>{profile.email}</span>
           </a>
         </li>
-        <li>
+        <li className="contact__list-item--location">
           <a href={profile.locationUrl} target="_blank" rel="noreferrer">
             <img src={mapPinIcon} alt="" aria-hidden="true" />
             <span>{profile.locationText}</span>
           </a>
         </li>
-        <li>
+        <li className="contact__list-item--resume">
           <a href={profile.resume} download>
             <img src={fileTextIcon} alt="" aria-hidden="true" />
             <span>Download my resume (PDF)</span>

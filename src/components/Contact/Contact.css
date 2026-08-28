@@ -9,6 +9,7 @@
   max-width: 100%;
   height: 53px;
   margin: 0 auto;
+  color: #121212;
   text-align: center;
   font-size: 44px;
   font-weight: 500;
@@ -36,7 +37,7 @@
   padding: 0;
 }
 
-.contact__social-list {
+.contact .contact__social-list {
   justify-content: center;
   margin-top: 36px;
 }
@@ -55,11 +56,11 @@
   object-fit: contain;
 }
 
-.contact__list {
+.contact .contact__list {
   flex-direction: column;
   align-items: center;
-  gap: 36px;
-  margin-top: 36px !important;
+  gap: 20px;
+  margin-top: 36px;
 }
 
 .contact__list a {
@@ -80,4 +81,12 @@
   width: 18px;
   height: 18px;
   object-fit: contain;
+}
+
+.contact__list-item--location a {
+  color: #808080;
+}
+
+.contact__list-item--resume a {
+  color: var(--color-blue);
 }

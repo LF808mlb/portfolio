@@ -47,12 +47,14 @@
 .project-card__title {
   margin: 0 0 0.75rem;
   color: var(--color-text-primary);
+  text-align: left;
   font-size: 1.1rem;
 }
 
 .project-card__description {
   margin: 0 0 0.65rem;
   color: var(--color-text-secondary);
+  text-align: left;
   font-size: 14px;
   line-height: 1.6;
 }
