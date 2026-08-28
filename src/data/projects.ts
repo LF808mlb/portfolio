@@ -28,7 +28,7 @@ export const projects: Project[] = [
     ],
     image: projectMeshAiImage,
     githubUrl: "https://github.com/LF808mlb/ai-se_project_mesh-ai.git",
-    liveUrl: "https://github.com/LF808mlb/ai-se_project_mesh-ai",
+    liveUrl: "https://mytodoappLF808.100mountain.com",
   },
   {
     id: "workspace-hub",
