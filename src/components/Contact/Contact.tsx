@@ -6,16 +6,24 @@ import linkedinIcon from "../../assets/projects/linkedin.png";
 import mapPinIcon from "../../assets/projects/map-pin.png";
 import "./Contact.css";
 
-export default function Contact() {
+interface ContactProps {
+  showHeading?: boolean;
+}
+
+export default function Contact({ showHeading = true }: ContactProps) {
   return (
     <nav className="contact" aria-label="Contact information">
-      <h2 className="contact__title">Get in Touch</h2>
+      {showHeading && (
+        <>
+          <h2 className="contact__title">Get in Touch</h2>
 
-      <p className="contact__description">
-        Have a project in mind, an open position, or just want to chat about
-        development strategies? Drop a line here or contact me via my email
-        below.
-      </p>
+          <p className="contact__description">
+            Have a project in mind, an open position, or just want to chat about
+            development strategies? Drop a line here or contact me via my email
+            below.
+          </p>
+        </>
+      )}
 
       <ul className="contact__list">
         <li>

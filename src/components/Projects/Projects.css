@@ -37,6 +37,7 @@
   display: flex;
   flex-direction: column;
   width: 405.3333435058594px;
+  max-width: 100%;
   height: 592px;
   background: var(--color-bg-primary);
   border: 1px solid #c5e0fc;
@@ -82,4 +83,10 @@
   justify-content: flex-start;
   gap: 1rem;
   margin-top: auto;
+}
+
+@media (max-width: 640px) {
+  .projects__list {
+    grid-template-columns: minmax(0, 1fr);
+  }
 }

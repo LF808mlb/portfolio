@@ -7,9 +7,11 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 1rem 2rem;
+  height: 64px;
+  padding: 0 2rem;
   background: var(--color-bg-primary);
   border-bottom: 1px solid rgba(18, 18, 18, 0.08);
+  box-sizing: border-box;
 }
 
 .header__brand {
@@ -19,6 +21,19 @@
   font-weight: 400;
   letter-spacing: 0.04em;
   text-decoration: none;
+}
+
+.header__menu-toggle {
+  display: none;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  padding: 0;
+  background: none;
+  border: none;
+  color: var(--color-text-primary);
+  cursor: pointer;
 }
 
 .header__nav {
@@ -40,4 +55,35 @@
 .header__link:focus-visible {
   color: var(--color-text-primary);
   font-weight: 500;
+}
+
+@media (max-width: 640px) {
+  .header__menu-toggle {
+    display: inline-flex;
+  }
+
+  .header__nav {
+    display: none;
+  }
+
+  .header__nav--open {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 2rem;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    right: 0;
+    height: calc(100vh - 64px);
+    margin: 0;
+    padding: 2rem;
+    background: var(--color-bg-primary);
+    overflow-y: auto;
+    box-sizing: border-box;
+  }
+
+  .header__nav-contact {
+    width: 100%;
+  }
 }
