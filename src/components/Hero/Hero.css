@@ -1,14 +1,15 @@
 .hero {
   min-height: 100vh;
   display: flex;
-  align-items: center;
-  padding: 8rem 2rem 2rem;
+  align-items: flex-start;
+  padding: 0 2rem 2rem;
   background: linear-gradient(180deg, #c5e0fc -72.42%, #ffffff 100%);
 }
 
 .hero__content {
   max-width: 900px;
   margin: 0 auto;
+  padding-top: 169px;
 }
 
 .hero__eyebrow {
