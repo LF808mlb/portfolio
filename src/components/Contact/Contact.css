@@ -1,0 +1,83 @@
+.contact {
+  min-height: 60vh;
+  padding: 2rem;
+  background: var(--color-bg-primary);
+}
+
+.contact__title {
+  width: 1280px;
+  max-width: 100%;
+  height: 53px;
+  margin: 0;
+  text-align: center;
+  font-size: 44px;
+  font-weight: 500;
+}
+
+.contact__description {
+  width: 500px;
+  max-width: 100%;
+  height: 87px;
+  margin: 48px auto 0;
+  color: #808080;
+  font-family: "Inter", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 1.5;
+  text-align: center;
+}
+
+.contact ul {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.contact__social-list {
+  justify-content: center;
+  margin-top: 36px;
+}
+
+.contact__social-list a {
+  width: 52px;
+  height: 52px;
+  justify-content: center;
+  border: 1px solid #e6e6e6;
+  border-radius: 40px;
+}
+
+.contact__social-list img {
+  width: 24px;
+  height: 24px;
+  object-fit: contain;
+}
+
+.contact__list {
+  flex-direction: column;
+  align-items: center;
+  gap: 36px;
+  margin-top: 36px !important;
+}
+
+.contact__list a {
+  text-decoration: none;
+}
+
+.contact a {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  color: #121212;
+  font-family: "Inter", sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.contact__list img {
+  width: 18px;
+  height: 18px;
+  object-fit: contain;
+}

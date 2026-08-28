@@ -10,6 +10,6 @@ export const profile: Profile = {
   linkedinUrl: "https://www.linkedin.com/in/lfukushima808/",
   locationUrl:
     "https://www.google.com/maps/place/O%E2%80%98ahu/@21.4840702,-158.2948847,10z/data=!3m1!4b1!4m6!3m5!1s0x7c006632db726b03:0xd9587d69906fcbc3!8m2!3d21.4389123!4d-158.0000565!16zL20vMGRmY24?entry=ttu&g_ep=EgoyMDI2MDgyNC4wIKXMDSoASAFQAw%3D%3D",
-  locationText: "Honolulu, HI",
+  locationText: "Oʻahu, HI (Open to Remote)",
   resume: "/resume.pdf",
 };
