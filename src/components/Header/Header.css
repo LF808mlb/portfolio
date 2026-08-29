@@ -49,6 +49,7 @@
 .header__menu-toggle[aria-expanded="true"]:hover,
 .header__menu-toggle[aria-expanded="true"]:focus-visible {
   border-color: #121212;
+  color: var(--color-text-primary);
 }
 
 .header__nav {
