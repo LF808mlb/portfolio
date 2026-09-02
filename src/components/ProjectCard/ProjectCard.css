@@ -1,0 +1,111 @@
+.project-card {
+  display: flex;
+  flex-direction: column;
+  width: 405.3333435058594px;
+  max-width: 100%;
+  min-height: 592px;
+  background: var(--color-bg-primary);
+  border: 1px solid rgba(18, 18, 18, 0.08);
+  border-radius: 8px;
+  overflow: hidden;
+  align-items: stretch;
+  cursor: pointer;
+}
+
+.project-card__image {
+  display: block;
+  width: 100%;
+  height: 240px;
+  flex-shrink: 0;
+  object-fit: contain;
+  background: #f7f9fc;
+}
+
+.project-card--mesh-ai .project-card__image {
+  width: 50%;
+  height: 50%;
+  align-self: center;
+  justify-self: center;
+  object-fit: contain;
+}
+
+.project-card--mesh-ai {
+  display: flex;
+}
+
+.project-card--mesh-ai .project-card__content {
+  min-width: 0;
+  padding: 1.25rem;
+}
+
+.project-card__content {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  min-height: 0;
+  padding: 1.25rem;
+}
+
+.project-card__title {
+  margin: 0 0 0.75rem;
+  color: var(--color-text-primary);
+  text-align: left;
+  font-size: 24px;
+  font-weight: 400;
+}
+
+.project-card:hover .project-card__title {
+  font-weight: 500;
+}
+
+.project-card__description {
+  margin: 0 0 0.65rem;
+  color: var(--color-text-secondary);
+  text-align: left;
+  font-size: 14px;
+  line-height: 1.6;
+}
+
+.project-card__description:last-of-type {
+  margin-bottom: 0;
+}
+
+.project-card__links {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 1rem;
+  margin-top: auto;
+}
+
+.project-card__link {
+  color: var(--color-text-primary);
+  border: 1px solid #eef4ff;
+  width: 88px;
+  height: 44px;
+  border-radius: 8px;
+  font-family: "Inter", sans-serif;
+  font-weight: 500;
+  font-size: 14px;
+  font-style: medium;
+  text-decoration: none;
+}
+
+.project-card__link--icon {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+}
+
+.project-card__icon {
+  width: 18px;
+  height: 18px;
+  display: block;
+}
+
+.project-card__link:hover,
+.project-card__link:focus-visible {
+  background-color: var(--color-bg-secondary);
+  text-decoration: none;
+}

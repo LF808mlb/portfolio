@@ -1,0 +1,93 @@
+.hero {
+  min-height: 100vh;
+  display: flex;
+  align-items: flex-start;
+  padding: 0 2rem 2rem;
+  background: linear-gradient(180deg, #c5e0fc -72.42%, #ffffff 100%);
+}
+
+.hero__content {
+  max-width: 900px;
+  min-width: 0;
+  margin: 0 auto;
+  padding-top: 169px;
+}
+
+.hero__eyebrow {
+  margin: 0;
+  color: var(--color-text-secondary);
+  font-size: 16px;
+  font-weight: 400;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+}
+
+.hero__name {
+  margin: 24px 0 0;
+  font-size: 62px;
+  font-weight: 500;
+  color: var(--color-text-primary);
+  line-height: 0.95;
+}
+
+.hero__title {
+  margin: 24px 0 0;
+  font-size: 20px;
+  color: var(--color-blue);
+  font-weight: 400;
+}
+
+.hero__bio {
+  max-width: 700px;
+  margin: 24px 0 0;
+  color: var(--color-text-secondary);
+  font-size: 16px;
+  line-height: 28px;
+  font-weight: 400;
+}
+
+.hero__actions {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1rem;
+  margin-top: 24px;
+}
+
+.hero__button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 155px;
+  height: 48px;
+  padding: 14px 24px;
+  border-radius: 8px;
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: 500;
+  transition: all 0.2s ease;
+  box-sizing: border-box;
+}
+
+.hero__button--primary {
+  background: var(--color-blue);
+  color: #fff;
+}
+
+.hero__button--primary:hover,
+.hero__button--primary:focus-visible {
+  background: var(--color-bg-secondary);
+  color: var(--color-text-primary);
+}
+
+.hero__button--secondary {
+  background: var(--color-bg-primary);
+  color: var(--color-text-primary);
+  border: 1px solid #3f96f3;
+}
+
+.hero__button--secondary:hover,
+.hero__button--secondary:focus-visible {
+  background: var(--color-bg-secondary);
+  border-color: var(--color-bg-secondary);
+}
