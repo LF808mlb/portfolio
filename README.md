@@ -4,7 +4,7 @@ This responsive portfolio project is made up of five main building blocks: a hea
 
 # Live Site Link
 
-https://portfolio-git-sprint-12-lf-808mlb.vercel.app/
+https://portfolio-ecru-gamma-1l6non6ku6.vercel.app/
 
 # Tech Stack
 
